@@ -1,4 +1,4 @@
-# 🎓 Student Placement Tracker
+# Student Placement Tracker
 
 A full-stack web application to manage and track student placement details with secure authentication and role-based access.
 
@@ -6,7 +6,7 @@ This project demonstrates backend API development, JWT authentication, database 
 
 ---
 
-## 🚀 Features
+## Features
 
 - User registration and login
 - Secure password hashing using bcrypt
@@ -21,7 +21,7 @@ This project demonstrates backend API development, JWT authentication, database 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - HTML
@@ -38,7 +38,7 @@ This project demonstrates backend API development, JWT authentication, database 
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -48,11 +48,11 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=placement_tracker  
 JWT_SECRET=your_jwt_secret  
 
-⚠️ `.env` is ignored in `.gitignore` for security.
+ `.env` is ignored in `.gitignore` for security.
 
 ---
 
-## 🗄️ Database Setup (MySQL)
+## Database Setup (MySQL)
 
 ```sql
 CREATE DATABASE placement_tracker;
