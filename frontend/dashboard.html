@@ -9,7 +9,24 @@
 
   <div class="container">
     <h2>Welcome to Dashboard</h2>
-    <p>You are logged in.</p>
+
+    <div id="profile">
+      <p>Loading profile...</p>
+    </div>
+
+    <h3>Update Placement Details</h3>
+
+    <input type="text" id="company" placeholder="Company name" />
+    <input type="number" id="package" placeholder="Package (LPA)" />
+
+    <select id="status">
+      <option value="Placed">Placed</option>
+      <option value="Not Placed">Not Placed</option>
+    </select>
+
+    <button onclick="updateProfile()">Update Profile</button>
+
+    <br><br>
     <button onclick="logout()">Logout</button>
   </div>
 
